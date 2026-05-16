@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="./images/love.png">
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: aquamarine;
+        }
+
+        #total {
+            width: 850px;
+            background-color: white;
+            margin: auto;
+            padding: 30px;
+        }
+
+        #upper {
+            width: 100%;
+            height: 70px;
+            margin: 0;
+            color: black;
+        }
+
+        #total p {
+            padding-top: 20px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            height: 30px;
+            background-color: black;
+            padding: 1px;
+            width: 850px;
+            margin-left: -30px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 90px;
+            padding: 5px;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        nav a h5:hover {
+            color: orange;
+        }
+
+        nav h5 {
+            color: white;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-left: 5px;
+        }
+
+        .video {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        #down {
+            width: 100%;
+            display: flex;
+        }
+
+        .left {
+            margin-top: 10px;
+            width: 60%;
+        }
+
+        .right {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            width: 300px;
+        }
+
+        .right img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="total">
+        <p>My Exciting Website</p>
+        <div class="navbar">
+            <nav>
+                <a href="./index.html"><h5>Home</h5></a>
+                <a href="./blog.html"><h5>Blog</h5></a>
+                <a><h5 style="color: orange;">About Us</h5></a>
+                <a><h5>Our History</h5></a>
+                <a href="./contacts.html"><h5>Contacts</h5></a>
+                <a href="./home.html"><h5>LOGIN</h5></a>
+            </nav>
+        </div>
+
+        <p style="justify-content: center; font-size:16px;">Welcome to our Fire Balloon Festival Blog, a space dedicated
+            to the beauty and wonder of glowing skies filled with floating fire balloons. Our blog shares unforgettable
+            festival
+            moments through stunning images, inspiring stories, and immersive videos that capture the magic of these
+            celebrations.
+            From cultural traditions to breathtaking night views, we aim to bring the warmth, joy, and excitement of
+            fire balloon
+            festivals closer to everyone who visits our page.</p>
+
+        <div class="video"><iframe width="500" height="315"
+                src="https://www.youtube.com/embed/-K6s27KDgzM?si=clmMmzpYBntA-Plh" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+        <div id="down">
+            <div class="left">
+                <p>Fire balloon festivals are more than just celebrations — they are magical experiences filled with
+                    light, joy, and unforgettable memories.
+                    Our blog is dedicated to sharing the beauty and cultural charm of these breathtaking events through
+                    stories, photography, and videos.<br><br>
+
+                    We capture the glowing skies, colorful balloons, and emotional moments that make these festivals so
+                    special. From peaceful lantern releases
+                    to vibrant nighttime celebrations, every post reflects the wonder and excitement of the festival
+                    atmosphere.<br><br>
+
+                    Through this blog, we hope to inspire travelers, photographers, and festival lovers to explore the
+                    magic of fire balloon festivals around the world.
+                    Every image and video shared here carries the warmth, beauty, and dream-like feeling of these
+                    incredible celebrations.
+
+                </p>
+            </div>
+            <div class="right">
+                <img src="./images/image1.png">
+                <img src="./images/image3.png">
+                <img src="./images/image2.png">
+                <img src="./images/image4.png">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

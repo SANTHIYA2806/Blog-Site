@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Site</title>
+    <link rel="icon" href="./images/love.png">
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: grey;
+        }
+
+        #white {
+            width: 850px;
+            background-color: white;
+            margin: auto;
+            padding: 30px;
+            margin-top: 20px;
+
+        }
+
+        #card {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/laptop pic.avif");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            border-radius: 5px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+
+        #navbar {
+            color: white;
+            font-weight: lighter;
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #navbar h2 {
+            font-size: 17px;
+            font-weight: normal;
+        }
+
+        .pages {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .pages h4 {
+            font-size: 13PX;
+            font-weight: normal;
+            transition: 0.5s;
+        }
+
+        .pages h4:hover {
+            text-decoration: underline;
+            color: orange;
+            text-underline-offset: 10px;
+            transform: translateY(-3px);
+        }
+
+        #navbar button {
+            background-color: orange;
+            color: white;
+            border-radius: 10px;
+            font-size: 9px;
+            padding: 10px;
+        }
+
+        #content {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            flex-direction: column;
+        }
+
+        .first {
+            width: 400px;
+            display: flex;
+            border-radius: 30px;
+            border: 1px solid orange;
+            padding: 4px;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .first button {
+            background-color: orange;
+            color: white;
+            padding: 15px;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            height: 35px;
+            width: 60px;
+            justify-content: center;
+            margin-top: 2px;
+        }
+
+        .first p {
+            margin-top: 12px;
+            margin-left: 10px;
+            font-size: 13px;
+            font-weight: normal;
+        }
+
+        #content h1{
+            margin: auto;
+            color: white;
+            line-height: 1.3;
+            text-align: center;
+            font-weight: normal;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        #content h5{
+            color: white;
+            margin: auto;
+            font-weight: normal;
+            text-align: center;
+            font-size: 10px;
+        }
+
+        .last{
+            margin: auto;
+            background-color: white;
+            margin-top: 30px;
+            border-radius: 10px;
+            padding: 3px;
+            width: 300px;
+            height: 40px;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .last p{
+            color: grey;
+            font-size: 12px;
+            display: inline;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .last button{
+            background-color: orange;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            border-radius: 5px;
+            border-style: none;
+            padding: 4px;
+            margin-left: 7px;
+            margin-top: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="white">
+        <div id="card">
+            <nav id="navbar">
+                <h2>DesignN<span style="color: orange;">Wrap</span></h2>
+                <div class="pages">
+                    <h4>HOME</h4>
+                    <h4>SERVICES</h4>
+                    <h4>PRODUCT</h4>
+                    <a style="text-decoration: none; color: white;" href="blog.html"><h4>BLOG</h4></a>
+                    <h4>LOGIN</h4>
+                </div>
+                <button>CREATE ACCOUNT</button>
+            </nav>
+
+            <div id="content">
+                <div class="first">
+                    <button>News</button>
+                    <p style="color: white;">Stay connected for upcoming updates and notifications.</p>
+                </div>
+                <h1>Explore Your <span style="color: orange;">Web</span> Skills<br> Secure Your Future<span style="color: orange;">.</span></h1>
+                <h5>Working to increase our occupation one pixel at a time.</h5>
+
+                <div class="last">
+                    <p> 👩🏻‍💻 UI/UX DESIGN  | 💻 CODE INFO</p>
+                    <button>🔍︎ Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

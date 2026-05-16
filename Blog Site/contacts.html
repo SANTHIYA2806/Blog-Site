@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="./images/love.png">
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: aquamarine;
+        }
+
+        #total {
+            width: 850px;
+            background-color: white;
+            margin: auto;
+            padding: 30px;
+        }
+
+        #upper {
+            width: 100%;
+            height: 70px;
+            margin: 0;
+            color: black;
+        }
+
+        #total p {
+            padding-top: 20px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            height: 30px;
+            background-color: black;
+            padding: 1px;
+            width: 850px;
+            margin-left: -30px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 90px;
+            padding: 5px;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        nav a h5:hover {
+            color: orange;
+        }
+
+        nav h5 {
+            color: white;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-left: 5px;
+        }
+
+        #full {
+            display: flex;
+            width: 100%;
+            margin-top: 40px;
+            gap: 20px;
+        }
+
+        #left {
+            width: 50%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .row label {
+            width: 60px;
+            font-size: 17px;
+        }
+
+        .row input,
+        .row textarea {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        .row textarea {
+            height: 100px;
+        }
+
+        #left button {
+            display: block;
+            margin: auto;
+            width: 75px;
+            padding: 9px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        #left button:hover {
+            background-color: darkorange;
+            transform: translateY(-3px);
+        }
+
+        #right{
+            width: 50%;
+            height: 250px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="total">
+        <p>My Exciting Website</p>
+        <div class="navbar">
+            <nav>
+                <a href="index.html"><h5>Home</h5></a>
+                <a href="./blog.html"><h5>Blog</h5></a>
+                <a href="./about.html"><h5>About Us</h5></a>
+                <a><h5>Our History</h5></a>
+                <a><h5 style="color: orange;">Contacts</h5></a>
+                <a href="./home.html"><h5>LOGIN</h5></a>
+            </nav>
+        </div>
+
+        <center>
+            <h3>We'd Love To Hear From You 🎈</h3>
+        </center>
+
+        <div id="full">
+            <div id="left">
+                <div class="row">
+                    <label>Name</label>
+                    <input type="text">
+                </div>
+
+                <div class="row">
+                    <label>Email</label>
+                    <input type="email">
+                </div>
+
+                <div class="row">
+                    <label>Phone</label>
+                    <input type="text">
+                </div>
+
+                <div class="row">
+                    <label>Message</label>
+                    <textarea></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </div>
+            <div id="right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.849732635345!2d72.82318371080724!3d18.93885785618946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e0f0a26a81%3A0x87d6e47e04df3916!2sWankhede%20Stadium!5e1!3m2!1sen!2sin!4v1778908633029!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
